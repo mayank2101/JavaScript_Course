@@ -1,0 +1,16 @@
+
+//            Variable in Javascript
+
+// var is globally scoped while let and const are block scoped.
+// let can be updated but not redeclared
+// const can neither be updated nor be redeclared.
+
+
+console.log("Welcome to the JavaScript and lets get started")
+let b = "Mayank";
+
+const author ="Mayank";
+let author = mayank; //it shown an error Identifier author has already been declared.
+console.log(b)
+
+console.log(author)
