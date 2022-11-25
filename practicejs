@@ -1,0 +1,31 @@
+// Practice Set 
+//Q. Create a variable of type string and try to add a number to it.
+
+let a = "mayank";
+let b = 56;
+
+console.log(a+b);
+console.log(typeof (a+b))
+
+//Q2. Create a const object in javascript and can you change it to hold a number later.
+
+const a1 = {
+
+  name: "Mayank",
+  section: 1,
+  isPrinciple: true
+}
+a1['name'] = "lovis" // you can not change const variable but you can change objects data as reference values.
+console.log(a1)
+
+// Q. Write a JS program to create a word meaning dictionary.
+
+const dict = {
+
+  phoenix: "a person or thing that has become renewed or restored after suffering calamity or apparent annihilation",
+  canicular: " pertaining to the rising of the Dog Star or to the star itself",
+  areology: "the observation and study of the planet Mars."
+}
+
+console.log(dict.areology)
+console.log(dict['canicular'])
