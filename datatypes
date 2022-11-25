@@ -1,0 +1,26 @@
+
+// Primitive Datatypes and Objects
+// 7 types of primitive datatypes and you can remember these datatypes like this nn ss bb u
+// n - number, n - null, s - symbol, s - string, b - boolean, b - BigInt, u - undefined;
+
+let a = null;
+let b = 123;
+let c = true; // also false
+let d = BigInt("9998");
+let e = "Mayank";
+let f = Symbol("I love this");
+let g = undefined;
+console.log(a,b,c,d,e,f,g);
+console.log(typeof e)
+
+// Objects are non primitive datatypes in JavaScript and it can be declared as key value pairs
+
+const item = {
+
+  "Mayank" : true,
+  "Abhi": false ,
+  "lovis": 67,
+  "nitesh": undefined
+}
+
+console.log(item['lovis'])
