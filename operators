@@ -1,0 +1,66 @@
+
+// Operators in JavaScript
+// Airthmetic Operators
+
+let a = 5
+let b = 6
+
+console.log("a + b = ", a+b);// Addition
+console.log("a - b = ", a-b); // Substraction
+console.log("a * b = ", a*b); // Multiplication
+console.log("a / b = ", a/b); // division
+console.log("a % b = ", a%b); // it return remainder 
+console.log("a ** b = ", a**b); // it is like this 5*5*5*5*5*5
+console.log("a**b = ", Math.pow(a,b))
+/*The exponentiation operator (**) raises the first operand to the power of the second operand.
+ and a ** b return same as Math.pow(a,b).*/
+
+console.log("a++ = ",a++)// It is a increment operator.
+console.log("a-- = ",a--)//it is a decrement operator.
+
+console.log("++a = " ,++a)
+console.log("--a = ", --a)
+/* the Deffirence b/w in js ++a or a++ (also minus) is if  increment or decrement operators comes after the operandes (a++ or a--) it will increase or decrease the value by 1 but not print the updated value you must print a in next statement.because it increase the value later.
+ if increment or decrement operators comes before the operandes (++a or --a) it will increase or decrease the value by 1 and it prints the updated value in same statement. because it increase the value first then it prints. */
+
+// Camparison Operator
+
+console.log("a = a + b", a +=b);
+console.log("a = a - b", a -=b);
+
+console.log("a = a * b", a *=b);
+
+console.log("a = a / b", a /=b);
+
+console.log("a = a % b", a %=b);
+
+console.log("a = a ** b", a **=b);
+
+
+// Camparison operators
+
+let comp1 = 8;
+let comp2 = 10;
+let comp3 = "10";
+
+console.log(comp1 == comp2)
+console.log(comp1 != comp2)
+console.log(comp1 > comp2)
+console.log(comp1 < comp2)
+console.log(comp1 >= comp2)
+console.log(comp1 <= comp2)
+console.log(comp2 === comp3)// it prints false because it wil  checks value as well as types of values like (number or string)
+console.log(comp2 !== comp3)
+
+// Logical Operators
+let x = 2
+let y = 4
+
+console.log( x<y && x == 2)// both conditon are true the it return true otherwise it will return false
+console.log(x<y || x == 4)// if one condition is return it will retrun true
+console.log(!true)// logical not is return false if true and return true if false
+
+
+
+
+
